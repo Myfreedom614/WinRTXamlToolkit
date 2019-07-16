@@ -152,13 +152,13 @@ namespace WinRTXamlToolkit.Controls.Extensions
 
                     try
                     {
-                        if (start is DataTemplate)
+                        if (parent is DataTemplate)
                         {
                             childrenCount = 0;
                         }
                         else
                         {
-                            childrenCount = VisualTreeHelper.GetChildrenCount(start);
+                            childrenCount = VisualTreeHelper.GetChildrenCount(parent);
                         }
                     }
                     catch (Exception)

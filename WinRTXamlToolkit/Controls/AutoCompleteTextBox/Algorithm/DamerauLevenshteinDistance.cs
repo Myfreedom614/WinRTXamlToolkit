@@ -57,8 +57,9 @@ namespace WinRTXamlToolkit.Controls
             /// <returns>A list of suggestions.</returns>
             public override IList<string> GetSuggestedWords(string wordToSuggest, ICollection<string> suggestionDictionary)
             {
+                // To cater the comparison with case insensitive words
                 var scoredSuggestions =
-                    suggestionDictionary.Select(suggestion => CalculateDistance(wordToSuggest, suggestion));
+                    suggestionDictionary.Select(suggestion => CalculateDistance(wordToSuggest.ToLower(), suggestion.ToLower()));
                 int maximalScore = scoredSuggestions.Min(scoredString => scoredString.Score); // less value means better
 
                 IComparer<int> scoreComparer =

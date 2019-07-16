@@ -2,16 +2,14 @@
 A set of controls, extensions and helper classes for [Windows Runtime XAML](http://en.wikipedia.org/wiki/Windows_Runtime_XAML_Framework) applications.
 
 ### Project Status
-The development of the project has kind of slowed down in 2013. I'm still hoping to speed it up, but I can't promise anything. I have a notebook with tons of ideas and a backlog of bugs and questions to fix. At this stage I would try cross-referencing questions here with [Stack Overflow](http://stackoverflow.com/questions/tagged/winrt-toolkit) to increase the change of getting an answer. If you see a bug that needs fixed - you should try fixing it yourself. I'll happily take a pull request to include it here and publish a fixed version to NuGet.
+The development of the project has kind of slowed down in 2013. I'm still hoping to speed it up, but I can't promise anything. I have a notebook with tons of ideas and a backlog of bugs and questions to fix. At this stage I would try cross-referencing questions here with [Stack Overflow](http://stackoverflow.com/questions/tagged/winrt-xaml-toolkit) to increase the change of getting an answer. If you see a bug that needs fixed - you should try fixing it yourself. I'll happily take a pull request to include it here and publish a fixed version to NuGet.
 
 ### Disclaimer
 This project is not managed by Microsoft. Its coordinator is currently employed by Microsoft, but the project has mostly been developed earlier and continues to be developed outside of work hours.
 It is not a full port of the [Silverlight Toolkit](http://silverlight.codeplex.com/), though it includes ported versions of some of its controls. This does not diminish the value of the code that is part of it and that you are free to use and modify. Attribution is welcomed, but not required.
 
 ### How do I use it?
-Watch the [introduction video](http://aka.ms/IntroductionToWinRTXamlToolkit).
-
-Clone the full [source code](https://github.com/xyzzer/WinRTXamlToolkit.git) or just the snippet you find useful. Be sure to try the samples! Find me on [twitter](http://twitter.com/#!/xyzzer) to ask any questions.
+Clone the full [source code](https://github.com/xyzzer/WinRTXamlToolkit.git) or just the snippet you find useful. Be sure to try the samples! Ask questions on [Stack Overflow](http://stackoverflow.com/questions/tagged/winrt-xaml-toolkit).
 
 For current version for UWP (Windows 10 and Windows Phone 10) use NuGet
 * [WinRT XAML Toolkit for Windows 10](https://www.nuget.org/packages/winrtxamltoolkit)
